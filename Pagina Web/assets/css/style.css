@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(8, 8, 8);
+}
+
+body {
+    position: relative;
+    padding-bottom: 430px;
+    min-height: 100%;
+
+}
+
+h1 {
+    color: rgb(114, 32, 0);
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.navbar {
+    background-color: rgb(247, 179, 111);
+    color: rgb(37, 35, 2);
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.home {
+    display: flex;
+    width: 2%;
+    float: left;
+}
+
+.insta {
+    width: 1.5%;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(114, 32, 0);
+    font-size: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+
+}
+
+.caja1 {
+    left: 400px;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    padding: 30px;
+
+}
+
+.postres {
+    margin: 50px;
+}
+
+.postres1 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.tortas1 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bombones1 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tortas {
+    margin: 50px;
+}
+
+.bombones {
+    margin: 50px;
+}
+
+footer {
+    background-color: rgb(247, 179, 111);
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+form p {
+    color: tomato;
+
+}
+
+form {
+    width: 500px;
+    height: auto;
+    margin: 80px auto;
+    display: block;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 10px;
+    padding-left: 30px;
+
+}
+
+.mapa {
+    width: 500px;
+    height: 30px;
+    padding: 30px;
+    display: block;
+    padding-left: 645px;
+
+
+}
+
+.cajaBombones {
+    left: 400px;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    padding: 30px;
+
+}
+
+.bombones01 {
+    margin: 50px;
+}
+
+.bombones01 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.bombones2 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bombones3 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bombones2 {
+    margin: 50px;
+}
+
+.bombones3 {
+    margin: 50px;
+}
+
+.cajaTortas {
+    left: 400px;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    padding: 30px;
+
+}
+
+.tortas01 {
+    margin: 50px;
+}
+
+.tortas01 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.tortas2 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tortas3 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tortas2 {
+    margin: 50px;
+}
+
+.tortas3 {
+    margin: 50px;
+}
+
+.cajaPostres {
+    left: 400px;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    padding: 43px;
+
+}
+
+.postres01 {
+    margin: 50px;
+}
+
+.postres01 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.postres2 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.postres3 h3 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.postres2 {
+    margin: 50px;
+}
+
+.postres3 {
+    margin: 50px;
+}
