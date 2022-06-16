@@ -77,20 +77,20 @@ nav ul li {
     margin: 50px;
 }
 
-.postres1 h3 {
+.postres1 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
 
 }
 
-.tortas1 h3 {
+.tortas1 h2{
     color: tomato;
     text-align: center;
     text-transform: uppercase;
 }
 
-.bombones1 h3 {
+.bombones1 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
@@ -156,20 +156,20 @@ form {
     margin: 50px;
 }
 
-.bombones01 h3 {
+.bombones01 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
 
 }
 
-.bombones2 h3 {
+.bombones2 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
 }
 
-.bombones3 h3 {
+.bombones3 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
@@ -196,20 +196,20 @@ form {
     margin: 50px;
 }
 
-.tortas01 h3 {
+.tortas01 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
 
 }
 
-.tortas2 h3 {
+.tortas2 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
 }
 
-.tortas3 h3 {
+.tortas3 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
@@ -236,20 +236,20 @@ form {
     margin: 50px;
 }
 
-.postres01 h3 {
+.postres01 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
 
 }
 
-.postres2 h3 {
+.postres2 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
 }
 
-.postres3 h3 {
+.postres3 h2 {
     color: tomato;
     text-align: center;
     text-transform: uppercase;
@@ -262,3 +262,16 @@ form {
 .postres3 {
     margin: 50px;
 }
+
+.nombre{
+    padding: 5px;
+}
+
+.telefono1{
+    padding: 5px;
+}
+
+.email{
+    padding: 5px;
+}
+

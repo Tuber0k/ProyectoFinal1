@@ -11,44 +11,46 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="./Tortas.html">Tortas</a></li>
-            <li><a href="./Postres.html">Postres</a></li>
-            <li><a href="./Bombones.html">Bombones</a></li>
-            <li><a href="./Contactos.html">Contactos</a></li>
-            <a href="https://www.instagram.com/midulcerinconbm/?hl=es"> <img class="insta"
-                    src="/assets/icon/bxl-instagram.svg" alt="instagram"></a>
-            <a href="/index.html"> <img class="home" src="/assets/icon/home.png" alt="inicio"></a>
-        </ul>
-    </nav>
     <header>
-        <!--Los h1 uno por pagina-->
+        <nav class="navbar">
+            <ul>
+                <li><a href="./Tortas.html">Tortas</a></li>
+                <li><a href="./Postres.html">Postres</a></li>
+                <li><a href="./Bombones.html">Bombones</a></li>
+                <li><a href="./Contactos.html">Contactos</a></li>
+                <a href="https://www.instagram.com/midulcerinconbm/?hl=es"> <img class="insta"
+                        src="/assets/icon/bxl-instagram.svg" alt="instagram"></a>
+                <a href="/index.html"> <img class="home" src="/assets/icon/home.png" alt="inicio"></a>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div class="Contactos">
+        <div class="formulario">
             <form action="" target="">
                 <h1>Contacto</h1>
-                <h3>*Nos contactaremos a la brevedad*</h3>
-                <br>
-                <p>Ingresa tu nombre completo: <input type="text" name="nombrecompleto" placeholder="Ingrese su Nombre"
-                        required="">
-                </p>
-                <br>
-                <p>
-                    Telefono: <input type="number" name="Telefono" placeholder="Ingrese su numero">
-                </p>
-                <br>
-                <p>Ingresa tu E-mail: <input type="email" name=""></p>
-                <p>
-                    <br>
-                    Deja un mensaje:<br>
+                <h2>*Nos contactaremos a la brevedad*</h2>
+                <div class="nombre">
+                    <label>Ingresa tu nombre completo:</label>
+                    <input type="text" name="nombrecompleto" placeholder="Ingrese su Nombre" required="">
+                </div>
+
+                <div class="telefono1">
+                    <label>Telefono: </label>
+                    <input type="number" name="Telefono" placeholder="Ingrese su numero">
+                </div>
+                <div class="email">
+                    <label>Ingresa tu E-mail:</label>
+                    <input type="email" name="">
+                </div>
+
+                <div class="mensaje">
+                    <label>Deja un mensaje:</label>
                     <textarea name="mensaje" placeholder="Deje su comentario" required="Obligatorio"></textarea>
-                </p>
+                </div>
                 <button type="submit" Enviar la información>Enviar</button>
         </div>
         </form>
-        <br>
+
         <div class="mapa">
 
 
@@ -62,7 +64,7 @@
         </form>
     </main>
     <footer>
-        <h5>©Damian Maisano. Todos los derechos reservados.</h5>
+        <h3>©Damian Maisano. Todos los derechos reservados.</h3>
     </footer>
 </body>
 
