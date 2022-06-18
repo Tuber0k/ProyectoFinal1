@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(8, 8, 8);
+}
+
+body {
+    position: relative;
+    padding-bottom: 430px;
+    min-height: 100%;
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "header header header header"
+        "navbar navbar navbar navbar"
+        "caja1  caja1  caja1  caja1"
+        "footer footer footer footer"
+
+
+
+}
+
+
+header {
+    grid-area: header;
+    background-color: rgb(219, 103, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+h1 {
+    grid-area: h1;
+    color: rgb(114, 32, 0);
+    text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200px;
+    font-style: italic;
+
+
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: rgb(212, 149, 228);
+    color: rgb(37, 35, 2);
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 5px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+
+}
+
+.home {
+    display: flex;
+    width: 2%;
+    float: left;
+}
+
+.insta {
+    padding-left: 105px;
+    padding-top: 70px;
+    width: 35px;
+
+
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(114, 32, 0);
+    font-size: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+
+}
+
+.logo {
+    grid-area: logo;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    text-overflow: clip;
+
+}
+
+.caja1 {
+    grid-area: caja1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.postres {
+    margin: 50px;
+    width: 150px;
+}
+
+.postres1 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.tortas1 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.bombones1 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tortas {
+    margin: 50px;
+    width: 150px;
+}
+
+.bombones {
+    margin: 50px;
+    width: 150px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(219, 149, 247);
+    color: rgb(10, 10, 10);
+    font-size: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form p {
+    color: tomato;
+
+}
+
+form {
+    width: 500px;
+    height: auto;
+    margin: 80px auto;
+    display: block;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 10px;
+    padding-left: 30px;
+
+}
+
+.mapa {
+    width: 500px;
+    height: 30px;
+    padding: 30px;
+    display: block;
+    padding-left: 645px;
+
+
+}
+
+.cajaBombones {
+    left: 400px;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    padding: 30px;
+
+}
+
+.bombones01 {
+    margin: 50px;
+}
+
+.bombones01 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.bombones2 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bombones3 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bombones2 {
+    margin: 50px;
+}
+
+.bombones3 {
+    margin: 50px;
+}
+
+.contenedorTortas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "header header header header"
+        "navbar navbar navbar navbar"
+        "caja1  caja1  caja1  caja1"
+        "footer footer footer footer"
+
+}
+
+.tortas01 {
+    margin: 50px;
+}
+
+.tortas01 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.tortas2 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tortas3 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.tortas2 {
+    margin: 50px;
+}
+
+.tortas3 {
+    margin: 50px;
+}
+
+.tortas3 .insta{
+    padding-left: 125px;
+    padding-top: 70px;
+    width: 35px;
+
+
+}
+
+.cajaPostres {
+    left: 400px;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    padding: 43px;
+
+}
+
+.postres01 {
+    margin: 50px;
+}
+
+.postres01 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.postres2 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.postres3 h2 {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.postres2 {
+    margin: 50px;
+}
+
+.postres3 {
+    margin: 50px;
+}
+
+.nombre {
+    padding: 5px;
+}
+
+.telefono1 {
+    padding: 5px;
+}
+
+.email {
+    padding: 5px;
+}
+
+
+.titulo h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.contenedorTortas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "header header header header"
+        "navbar navbar navbar navbar"
+        "cajaTortas cajaTortas cajaTortas CajaTortas"
+        "footer footer footer footer"
+}
+
+
+
+
+
+
+@media(min-width:576px) {
+    .caja1 {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+
+    }
+
+    .cajaTortas{
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .tortas3 .insta{
+        padding-left: 5px;
+        padding-top: 70px;
+        width: 35px;
+    
+    }
+}   
